@@ -44,12 +44,36 @@ Pill-Identifier/
 ```bash
 pip install tensorflow pandas pillow pyttsx3
 --
+```
 2. Generate synthetic pill images:
+```bash
 python generate_pill_images.py
 --
+```
 3.Run the pill identifier:
+```bash
 python pill_identifier.py
 --
+```
+Sample Output
+```bash
+Pill: round_red
+Uses: Pain relief and fever reducer
+Dosage: 500 mg
+The same information is also read aloud using voice output.
+---
+```
+## Key Learnings
+- Built an end-to-end AI workflow
+- Worked with synthetic image datasets
+- Applied CNN concepts for image processing
+- Integrated text-to-speech for accessibility
+
+## Future Improvements
+- Use real pill image datasets
+- Improve model accuracy
+- Deploy as a web application
+
 Author
 Akshaya Kondam
 AI & Data Science Enthusiast
